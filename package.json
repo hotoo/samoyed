@@ -1,0 +1,28 @@
+{
+  "name": "samoyed",
+  "version": "1.0.0",
+  "description": "The samoyed dog who named Summer.",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm run clean && markline build summer.md",
+    "server": "markline server summer.md",
+    "clean": "rm -rf dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "a"
+  },
+  "keywords": [
+    "Samoyed",
+    "Dog",
+    "Summer",
+    "Markline",
+    "timeline"
+  ],
+  "author": "闲耘 <hotoo.cn@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "markline": "^0.6.0"
+  }
+}
